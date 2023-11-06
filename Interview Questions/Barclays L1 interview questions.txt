@@ -1,0 +1,20 @@
+Self Introduction
+How do you select a value from Dropdown
+Write Xpath for an element in a Dynamic table
+What is TestNG
+What are the different annotations in TestNG
+Order of the TestNG annotations
+How to generate reports in Selenium
+Write Java code to swap 2 numbers without using 3rd variable
+What are the HTTP methods in API testing
+Can we use PUT instead of POST?
+Difference between PUT and POST
+List the HTTP response codes and explain them
+What is Smoke Testing and Sanity Testing
+Difference between Sanity Testing and Regression Testing
+What is RTM and explain it
+What is a Test case and explain its components
+Explain Defect lifecycle
+What are the details to be mentioned in a defect
+Difference between Defect Severity and Priority
+Example for High severity and low priority

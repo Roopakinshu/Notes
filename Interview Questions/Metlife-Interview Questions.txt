@@ -1,0 +1,6 @@
+1) write the reusable function for SUM?
+2) write the reusable function for LowerCase?
+3) write the Xpath?-->id = "cg"
+                      id = "12cg12"
+4) difference between overloading and overriding in java?
+5) what is findelement and findelements in selenium?

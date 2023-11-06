@@ -1,0 +1,11 @@
+float multiply
+leap year
+swap numbers
+reverse string
+
+
+
+
+    1. https://r2d2-jobfeed.capgemini.com - Will work on VDI/VPN(Inside CG network)
+    2. https://edifra-bpmaas-prod2.pegacloud.net/prweb/PRAuth/sso?App=JobFeed - Will work outside/ inside CG network.- Ping ID is must.
+Click Here to access Help documents available.

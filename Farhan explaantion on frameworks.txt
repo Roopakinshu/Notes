@@ -1,0 +1,181 @@
+Introduction:
+	Your Exp in ST, and exp in automation. 
+	Your domains,
+	Automation: reg, with tools.
+	API: tools.
+	Manual: tools.
+	Current: Buss
+
+Framework:
+	TestNG with POM
+
+projectName:
+	
+	src/main/java:
+	src/main/test: 	TestScripts-	where we write all our testscripts @Test - 
+					1> Object ---
+					2> Cre = data; ---
+					3> execute --- 
+					4> Assertion --- 
+					5> Call --- 
+					
+				
+			Utility - Utility class- wait(), handLingDD();
+			POM- for eachpage we create one class (Page object model)
+			Runner - baseTest - @Before
+			Listner - ListnerClass - 
+	
+	resource -	TEstData - data.json/ excel
+			 OutPut - screenshots - screen.png
+			  - report - report.html
+	
+
+	testNG.xml - all test scripts
+
+	Tools: POM.XML
+
+
+
+Regression 
+Smoke
+Functional
+
+@BeforeSuit (launchBrowser()) - number of suits
+	@BeforeClass(launchBrowser()) - number of classes
+		@BeforeMethod - number of @TEst
+			@Test
+		@AfterMethod
+	@AfterClass
+@BeforeSuit (closeBrowser())
+
+Regression
+	LaunchBrowser - loginTestClass{
+					@Test, @Test, @Test, @Test, @Test
+					}
+			- HomeTestClass{ @Test, @TEst, @TEst}
+}
+	@AfterSuit(close())
+Smoke
+	LaunchBrowser - loginTestClass{
+					@Test, @Test, @Test, @Test, @Test
+					}
+			- HomeTestClass{ @Test, @TEst, @TEst}
+} @BeforeSuite(close())
+Functional
+	LaunchBrowser - loginTestClass{
+					@Test, @Test, @Test, @Test, @Test
+					}
+			- HomeTestClass{ @Test, @TEst, @TEst}
+}
+@BeforeSuite(close())
+
+---------------------------
+
+@BeforeSuit (laucn Browser) .
+	@BeforeClass (by using I am creating one Insta account)  1, 2, . . . . . 10 times
+		@BeforeMethod ( In db I am adding badge for the profile) 1-1, 1-2, 2-1, 2-2 . . . . . . . . . . . 
+			@Test 10 test cases - 10 accounts for test  1-1, 1-2, 2-1, 2-2 . . . . . . . . . . .
+		@AfterMethod (remove badge from database) 1-1,1-2, 2-1, 2-2 . . . . . . . . . . .
+	@AfterClass (i am delete the account) 1,  . . . . 10 times
+@AfterSuit (I am closing browser) .
+
+Instagram: 
+
+1. launch browser
+2. create 10 accounts
+3. add some role to that account -db
+4. test script execution     (@TEst and check you have the badge: login
+				@Test login as someuser and check badge is displaying on your account)
+5. remove the role - db
+6. delete account
+7. close the browser
+
+
+
+
+git status - the changes you have done
+git add . - add/stagging
+git commit - m "info"
+git push localBranch --- URL
+
+	1. jenkins pipeline
+	2. changes
+	3. standards
+Accept the push req
+Merge the code from your Local Branch to the master Branch
+
+
+
+
+conflits
+
+line 121
+line 121
+
+.
+.
+.
+.
+.
+
+your code
+
+logs ->
+your commit id:
+
+git HEAD revert commit id
+
+
+
+
+1> reverse String
+2> find the dublicate characters from string
+3> find the unique characters from string
+4> find the dublicate words from the string
+5> find the unique words from the string
+6> occurance
+
+7> 
+
+
+String name = "pooja"
+for(int i=0; i<name.length; i++){
+	reverseName = name.charAt(i)+reverseName;
+}
+
+char[] ch = name.toCharArray();
+for(char c: ch){
+	reverseName=c+reverseName;
+}
+
+List<Character> list = Arrays.asList(ch);
+Collections.reverse(list);
+
+
+
+
+
+Find out the first non-repeating character from the given array of String.
+
+Ex:
+
+Input : { "array", "apple", "rat"}   y = 1
+					break
+
+for(String s: input){
+char[] a = s.toCharArray();
+Map<Character, Integer> 1/ 2,
+
+Output: y,a,r
+
+
+
+
+
+
+
+
+
+
+
+

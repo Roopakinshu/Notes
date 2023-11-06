@@ -1,0 +1,51 @@
+Asked questions 
+Tell me about yourself
+
+1.To take xpath of particular element on any website.
+2.Realtime question on dropdown
+3.code snippets and output
+   String A="Hello";
+   String B="World"
+   int C=1;
+   int D=2;
+ output of A+B+C+D;
+4.Defect life cycle
+5.Java coding Questions
+  5.1 Given a string get the "Hello World" find each character repetition.
+  5.2 Total characters.
+  5.3 Particular Characterin a given string.
+6.Where do you use OOPs concepts in your Frame work explain 
+7.Questions on Framework.
+8.Questions on POM
+9.Realtime Questions on Selenium.
+10 Cucumber advantages
+11.Exceptions you faced and how you handled it
+12.Problems you faced during testing how you handled it.
+13.GIT commands what commands you used in framework
+14.Jenkins
+15.Testng concepts
+16.how do you handled reports
+17.Get windowHandle and Get window handles.
+18.Switchto command.
+19.Find element and find elements where do we use these.
+20.Framework Structure explain.
+21.Waits in selenium.
+22.Get commands.
+23.TestRunner class use.
+24.Cucumber options in testrunner class: glue, pretty, features.
+25 How to integrate Testrunner and TestNG.
+26.Scenario based questions on opening multiple browsers and switching between them.
+27.Assert Commands and usage.
+28.In selenium how can you send data into text box
+   SendKeys
+   Javascript executor.
+29.Syntax of few webelements using webdriver
+30.Questions on Scrolling.
+
+
+
+ 
+
+
+ 
+

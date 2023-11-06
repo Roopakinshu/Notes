@@ -1,0 +1,6 @@
+How to push code to new repository
+
+git remote add origin 'your_url_name'
+
+git push -u origin master
+

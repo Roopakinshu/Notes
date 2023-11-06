@@ -1,0 +1,79 @@
+AVA link data
+================
+2. How to connect to database using java - JDBC.
+2. cucumber tool related questions
+3. java object oriented programming related questions.
+4. How to set up web driver in cucumber.
+5.Selenium tool related questions.
+6. API Test Automation related questions.
+
+Barclays L1 Questions
+===========================
+1.Diff. Abtract class and interface
+2. Diff String buffer and String builder
+3. Java Program to find second highest number from array
+4. Write syntax for implicitly wait
+5. Write selenium code screenshot
+6. How we can get all the options from dropdown
+7. Can we override abtract class and main method
+8. What is Static Keyword in Java
+9. Difference between Authorization and Authentication
+10. Why main method is Static?
+11. diff. between final, finally and finalize
+
+12. To find xpath from make my trip website to get Indigo flight prices only
+
+13. diff list and set
+
+
+Alshaya - API testing & mobile testing
+=====================================
+1. Tell your project and roles and responsiblity (Specify with the intergration systems if any and third pary systems)
+2. What kind of mobile testing you have done
+3. What are all the testing types in mobile testing (Specify with examples related to your project)
+4. What are all the API Authorization
+5. How you tested the API
+6. Explain the SIT testing you have done
+7. How you did the SIT and what you validated.
+
+
+Alshaya-Mobile testing	 
+tell us about you?	 
+what type of testing did for mobile application?	 
+Test scenario base questions for daily scrum?	What is daily scrum ?
+Test scenario base questions for critical /high defect?	If critical defect found what should action?
+How are the steps followed for API testing in postman tool?	 
+Are you did the configuration of Jenkin automation?	 
+Ecommerce - how you will test as per user interest search result or application behavior testing?
+Tools used for mobile application testing?	 
+Steps followed for mobile application testing?	 
+Which are Ceremony of agile scrum?	 
+Role of Test lead QA lead?	
+
+
+Allianz Interview Questions below
+=====================================
+1. Introduce yourself
+2. Roles and Responsibilities in recent project
+3. Explain the Framework structure of your automation project
+4. Exceptions in Selenium
+5. Difference between NoSuch Element and Element Not Visible Expection
+6. Stale Element Expection
+7. How to handle alerts?
+8. Write a code for Map and print the elements in map
+9. Write a reversal string method and give input in the run time
+10. Experience about GIT and CI/CD pipe lines
+
+
+
+Design patterns in Java problems
+remove duplicate words in a string
+collections in java
+what are the interfaces present in collections aprt frm Hashmap
+final finally fialize in java
+how will be handling exception in stale exception in catch block
+array list and linked list diffeence
+why String is immutable in java
+select class in selenium
+Types of expectations which you come across in selenium
+How do you use CICD in your project

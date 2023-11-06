@@ -1,0 +1,8 @@
+CharSequence Interface
+
+Classes that are implemented using the CharSequence interface are
+
+String
+StringBuffer
+StringBuilder
+

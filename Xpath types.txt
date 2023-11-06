@@ -1,0 +1,90 @@
+
+
+imp: 
+
+cmd F/ctrl F - to check your xpath in console
+F12 to open consol
+to directly copy xpath--->inspect element.. go to the console highlihgted line right click, copy, copy xpath 
+Xpath:
+
+1.Basic Xpath
+
+Xpath=//tagname[@attribute='value']
+
+Relative xpath
+
+//form/input[3]
+
+
+2. Contains ()-used when the value of any attribute changes dynamically, for example, login information.
+Xpath=//*[contains(@type,'sub')]
+
+3. OR and AND 
+
+OR- identified when anyone condition satisfies
+AND - both condition should satisfy
+
+Xpath=//*[@type='submit' or @name='btnReset']
+Xpath=//input[@type='submit' and @name='btnLogin']
+
+4.starts-with
+
+Xpath=//label[starts-with(@id,'message')]
+
+
+5.Text()
+
+Xpath=//td[text()='UserID']
+
+6. Last()
+
+//form/input[last()-1]
+
+7.position()
+descendant::input[position()=2]
+it means select second input tag
+
+=========================================
+
+Xpath Axes: used to find the complex or dynamic elements also when no attributes like class,id and name
+
+using locators you traverse from one point to other with attributes.. using xpath you traverse through tags
+
+1. Following (select parallel nodes, child and grandhild of those parallel nodes as well)
+
+Xpath=//*[@type='text']/following::input
+
+2.Ancestor
+Xpath=//*[text()='Enterprise Testing']/ancestor::div
+
+3. Child
+
+Xpath=//*[@id='java_technologies']/child::li
+
+
+
+Xpath=//*[@id='java_technologies']/child::*
+selects all children of above tag
+
+4. Preceding
+Xpath=//*[@type='submit']/preceding::input
+
+5. Following-sibling - you cannot use slash (/) from sibling to sibling hence you give first sibling and use following-sibling axes
+xpath=//*[@type='submit']/following-sibling::input
+
+
+//div[@id=""]/following-sbling::div[position()=2]/descendant::*
+
+6.Parent
+Xpath=//*[@id='rt-feature']/parent::div
+
+you cannot do this moving from child to parent using CSS
+
+7.Self
+Xpath =//*[@type='password']/self::input
+
+8.Descendant (selects child and grandchild)
+Xpath=//*[@id='rt-feature']/descendant::a
+
+Dynamic Radio buttons:
+//span[@class='']/input[preceding-sibling::label[text()='custom']]

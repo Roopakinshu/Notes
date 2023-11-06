@@ -1,0 +1,6 @@
+Baseclass - Browser initialization,waits declaration,delete cookies,get url,window maximization
+config.properties- url, username,pwd, browser - we only give global properties here
+TestNG- dependency scope tag value should be compile instead of test
+Page factory -  for writing the locators
+@FindBy(name="")
+webelement usename;
